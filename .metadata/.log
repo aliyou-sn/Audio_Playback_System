@@ -1,0 +1,88 @@
+!SESSION 2024-08-03 22:04:58.127 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/apple/Desktop/audio_playback_system
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-08-03 22:05:10.765
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-08-03 22:05:10.770
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-08-03 22:05:10.772
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-08-03 22:05:10.775
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:13.364
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:13.365
+!MESSAGE idf_tools.py path: null/tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:13.365
+!MESSAGE idf_tools.py path doesn't exist
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:13.366
+!MESSAGE [/usr/bin:/bin:/usr/sbin:/sbin]
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:14.154
+!MESSAGE Eclipse Install location::file:/Applications/Espressif-IDE.app/Contents/Eclipse/
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:14.166
+!MESSAGE esp-idf.json file doesnt exist at this location: /Applications/Espressif-IDE.app/Contents/Eclipse/
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:05:47.869
+!MESSAGE Source Template path:/Users/apple/Desktop/audio_playback_system/file_upload
+
+!ENTRY com.espressif.idf.core 4 0 2024-08-03 22:05:48.120
+!MESSAGE No value present
+!STACK 0
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+	at com.espressif.idf.core.util.RecheckConfigsHelper.getESPToolChain(RecheckConfigsHelper.java:78)
+	at com.espressif.idf.core.util.RecheckConfigsHelper.revalidateToolchain(RecheckConfigsHelper.java:46)
+	at com.espressif.idf.core.resources.ResourceChangeListener$1.visit(ResourceChangeListener.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at com.espressif.idf.core.resources.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:41)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2467)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY com.espressif.idf.core 1 0 2024-08-03 22:07:07.048
+!MESSAGE Source Template path:/Users/apple/Desktop/audio_playback_system/file_upload
+
+!ENTRY com.espressif.idf.core 4 0 2024-08-03 22:07:07.059
+!MESSAGE No value present
+!STACK 0
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+	at com.espressif.idf.core.util.RecheckConfigsHelper.getESPToolChain(RecheckConfigsHelper.java:78)
+	at com.espressif.idf.core.util.RecheckConfigsHelper.revalidateToolchain(RecheckConfigsHelper.java:46)
+	at com.espressif.idf.core.resources.ResourceChangeListener$1.visit(ResourceChangeListener.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at com.espressif.idf.core.resources.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:41)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2467)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
